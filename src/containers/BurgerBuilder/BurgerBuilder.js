@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import Auxilary from "../../hoc/auxilary";
+import Auxilary from "../../hoc/Auxilary/auxilary";
 import Burger from "../../components/Burger/Burger";
 import BuiltControls from "../../components/Burger/BuiltControls/BuiltControls";
 import Modal from "../../components/UI/Modal/Modal";
@@ -16,7 +16,7 @@ class BurgerBuilder extends Component {
     // constructor(props){
     //     super(props);
     //     this.state
-    // }
+    // } 
     state ={
             ingredients:{
                 salad: 0,
